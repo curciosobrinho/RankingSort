@@ -239,11 +239,6 @@ void RankingSort(int array[], int n)
             }
         }
         
-        //commented to better test
-        //if (i > 0 && (array[i -1] < array[i]))
-        //{
-        //    continue;
-        //}
         
         // hold the min e position
         int minValue = array[i];
