@@ -6,7 +6,7 @@ Take a look at the other sorting algorithms like EcoSelection sort inside the co
 <br>
 :)
 <br>
-The idea is open the mind about the options inside loops.
+The idea is to open the mind about the options inside loops.
 Why use only 1 value of the array at a time? Why not compare more than one?
 
 I hope that this implementation shows that it is worth to think about it.
