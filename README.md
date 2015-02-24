@@ -2,7 +2,7 @@
 
 Really fast sorting algorithm for small arrays.<br>
 <br>
-Take a look at the other sorting algorithms like EcoSelection sort to better understand this one.
+Take a look at the other sorting algorithms like EcoSelection sort inside the code to better understand this one.
 <br>
 :)
 <br>
