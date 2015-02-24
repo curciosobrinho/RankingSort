@@ -221,6 +221,7 @@ void RankingSort(int array[], int n)
     // start from beggining and from the end 
     for (int i = 0, lastIndex = (n - 1); i < n ; i++, lastIndex--)
     {
+        
         // watch out for even or odd sizes of arrays
         if (n % 2 == 0)
         {
@@ -236,6 +237,11 @@ void RankingSort(int array[], int n)
             {
                 break;
             }
+        }
+        
+        if (i > 0 && (array[i -1] > array[i]))
+        {
+            continue;
         }
         
         // hold the min e position
