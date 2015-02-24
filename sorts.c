@@ -239,7 +239,7 @@ void RankingSort(int array[], int n)
             }
         }
         
-        if (i > 0 && (array[i -1] > array[i]))
+        if (i > 0 && (array[i -1] < array[i]))
         {
             continue;
         }
