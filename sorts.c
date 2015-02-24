@@ -550,12 +550,20 @@ void EcoShellSort(int vet[], int size)
     int i, pos, value, control;
     int gap = 1;
     
-    control = 3;
+     control = 3;
+    
+    int numDig = 0;
     
     // the size of the array is bigger than 1000
     // lets increase the control
     if (size > 1000)
-    control = log10(size) + 1;
+    {
+        numDig = log10(size);
+        control = numDig;
+        
+        if (size > 999999)
+            control = --numDig;
+    }
     
     while(gap < size) {
         gap = control * gap + 1;
