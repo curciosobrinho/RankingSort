@@ -18,9 +18,12 @@ The new algotrithm as implemented is faster than insertion sort.
 
 The Ranking sort uses the core idea of selection sort but uses the min e max each iteration, going from 0 - mid and final - mid inside the same loop. When they meet, stop the iteration and the unsorted array is sorted.
 
-EcoShellSort (I am still working on this one) is a modified implementation of shellSort using the size of the array as a parameter to set the gap (I am still testing to check when and how to make it better).
+EcoShellSort (I am still working on this one) is a modified implementation of shellSort using the size of the array as a parameter to set the gap (I am still testing to check when and how to make it better). As it uses the same principle of insertion sort to sort the small chunks, I am tweaking the size of the chunk to improve speedy. It seems to be working.
+<br>
+:)
 
-The above code shows the difference in time  - microseconds - (I know that we must NOT use time to measure, but as they will ALL run with the same array and in the same machine  - your machine - I think we can try)
+<br>
+The above code (sorts.c) shows the difference in time  - microseconds - (I know that we must NOT use time to measure, but as they will ALL run with the same array and in the same machine  - your machine - I think we can try)
 
 Take a look at some speed benchmarks<br>
 <br>
