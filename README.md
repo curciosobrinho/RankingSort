@@ -77,7 +77,7 @@ EcoSelectionSort - Time : 90063 us<br>
 EcoTurboSelectionSort - Time : 65995 us<br>
 EcoPowerSelectionSort - Time : 68592 us<br>
 RankingSort - Time : 59071 us<br>
-EcoShellSort - Time : 1998 us<br>
+EcoShellSort - Time : 1832 us<br>
 <br>
 <br>
 Array size = 100000<br>
@@ -91,7 +91,7 @@ EcoSelectionSort - Time : 8386055 us<br>
 EcoTurboSelectionSort - Time : 6415782 us<br>
 EcoPowerSelectionSort - Time : 6295024 us<br>
 RankingSort - Time : 5709083 us<br>
-EcoShellSort - Time : 26543 us<br>
+EcoShellSort - Time : 26694 us<br>
 
 
 # How to run
